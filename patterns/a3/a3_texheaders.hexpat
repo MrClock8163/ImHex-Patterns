@@ -54,7 +54,7 @@ enum PixelFormat: u8 {
 };
 
 enum Suffix: u32 {
-    DEFAULT = 0,
+    DIFFUSE = 0,
     DIFFUSE_LINEAR = 1,
     DETAIL = 2,
     NORMAL = 3,
@@ -63,7 +63,7 @@ enum Suffix: u32 {
     TREECROWN = 6,
     MACRO = 7,
     SHADOW = 8,
-    SPECILAR = 9,
+    SPECULAR = 9,
     DITHERING = 10,
     DETAIL_SPECULAR = 11,
     MASK = 12,
